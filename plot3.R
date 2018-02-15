@@ -27,7 +27,7 @@
 				lines(DateTime, Sub_metering_3, col = "blue")
 			}
 		)
-	legend("topright", lty = c(1, 1, 1), lwd = c(2, 2, 2), col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+	legend("top", lty = c(1, 1, 1), lwd = c(2, 2, 2), col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 	## DEFAULT SIZE (WIDTH - 480 PIXELS & HEIGHT - 480 PIXELS)
 		dev.copy(png, file = "plot3.png")
